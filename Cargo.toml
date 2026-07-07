@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "apps/api",
+    "crates/truth-kernel",
+    "crates/governance",
+    "crates/firefly",
+    "crates/security",
+    "crates/audit",
+    "crates/core",
+    "crates/logging",
+    "crates/storage",
+    "crates/replay",
+    "crates/shared",
+    "crates/swi-core",
+    "crates/swi-workflow",
+    "crates/swi-governance",
+    "crates/swi-memory",
+    "crates/swi-events",
+    "crates/swi-security",
+    "crates/swi-types"
+]

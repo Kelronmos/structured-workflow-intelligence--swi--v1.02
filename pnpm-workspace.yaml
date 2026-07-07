@@ -1,0 +1,17 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "services/*"
+
+# Strict workspace isolation
+linkWorkspacePackages: true
+shared-workspace-lockfile: true
+
+# Prevent implicit dependency drift
+injectWorkspacePackages: false
+
+# Deterministic install behavior
+autoInstallPeers: false
+
+# Avoid phantom dependency resolution differences
+resolutionMode: "strict"
